@@ -15,7 +15,7 @@ export default function countriesReducer(state = initialState, action){
                 loading: true
             }
             case GET_COUNTRIES_SUCCESS:
-                console.log(action.payload)
+            
                 return{
                     countries: action.payload,
                     loading: false,
