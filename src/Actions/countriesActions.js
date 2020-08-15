@@ -6,9 +6,9 @@ export const getCountries = () => ({
     type: GET_COUNTRIES,
 })
 
-export const getCountriesSuccess = (users) => ({
+export const getCountriesSuccess = (countries) => ({
     type: GET_COUNTRIES_SUCCESS,
-    payload: users,
+    payload: countries,
 })
 
 export const getCountriesFailure = () => ({
