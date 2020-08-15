@@ -1,3 +1,5 @@
+import { GET_COUNTRIES, GET_COUNTRIES_SUCCESS, GET_COUNTRIES_FAILURE } from '../Actions/actions';
+
 export const initialState = {
     countries: [],
     loading: false,
