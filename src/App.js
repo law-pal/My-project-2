@@ -14,13 +14,13 @@ class App extends Component {
     return(
      <Router>
        <Switch>
-         <Route></Route>
-         <Route></Route>
-         <Route></Route>
-         <Route></Route>
-         <Route></Route>
-         <Route></Route>
-         <Route></Route>
+         <Route exact path='/' component={Countries}/>
+         <Route path='United-States' component={UnitedStates}/>
+         <Route/>
+         <Route/>
+         <Route/>
+         <Route/>
+         <Route/>
        </Switch>
      </Router>
     );
