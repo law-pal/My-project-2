@@ -6,9 +6,9 @@ const Country = (props) => {
     return (
         <div className='container'>
             <div className='country'>
-                <div className='country-header'>
+                    <div className='country-header'>
                     <img className='flags' src={props.nation.flag} alt='#'/>
-                </div>
+                    </div>
                 <div className='country-body'>
                     <h2>{props.nation.name}</h2>
                     <p>
