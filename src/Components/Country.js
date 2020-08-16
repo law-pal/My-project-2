@@ -1,13 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-const Country = () => {
-    return(
-       
-        this.props.country.nation
-          
-    );
+const Country = (props) => {
+         
+        return props.nation.name
 }
-
 
 
 export default Country;
