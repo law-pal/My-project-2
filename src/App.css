@@ -1,19 +1,40 @@
-.containner{
-  display: flex;
+*{
+  box-sizing: border-box;
 }
 
-.country{
+body{
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 30px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.card{
   max-width: 300px;
   border-radius: 4px;
   background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.08), 0 1.5px 2px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 4px rgba(0,0,0,1), 0 1.5px 2px rgba(0,0,0,1);
   overflow: hidden;
+  margin-bottom: 40px;
 }
 
-.country-body{
-  max-width: 300px;
+.card-body{
+  padding: 30px;
+}
+
+.country-body h2 {
+  margin-top: 0;
 }
 
 .flags{
-  max-width: 300px;
+  max-width: 100%;
 }
