@@ -19,7 +19,6 @@ class Countries extends Component {
         }else {
             console.log(this.props.countries)
         return this.props.countries.map(country => <Country key={country.id} nation={country}/>)
-        
         }
     }
 

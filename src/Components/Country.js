@@ -1,8 +1,13 @@
 import React from 'react';
 
+
 const Country = (props) => {
-         
-        return props.nation.name
+       
+    return (
+        <div>
+            {props.nation.name}
+        </div>
+    );
 }
 
 
