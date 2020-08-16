@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Country from './Country';
-import {fetchCountries} from '../Actions/actions';
+import {fetchCountries} from '../Actions/countriesActions';
 import {connect} from 'react-redux';
 
 

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
 import './App.css';
-import Country from './Components/Country';
+import Countries from './Components/Countries';
 
 class App extends Component {
   render() {
     return(
       <div>
-        <Country/>
+        <Countries/>
       </div>
     );
   }
