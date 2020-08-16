@@ -23,7 +23,6 @@ export function fetchCountries() {
         try {
             const response = await fetch('https://restcountries.eu/rest/v2/all')
             const data = await response.json()
-            console.log(data)
             dispatch(getCountriesSuccess(data))
         } catch (error) {
             dispatch(getCountriesFailure())
