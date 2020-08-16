@@ -24,6 +24,7 @@ class Countries extends Component {
 
     render() {
         return(
+            
             <div>
                 {this.renderCountry()}
             </div>
