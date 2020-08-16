@@ -2,9 +2,9 @@ import React from 'react'
 
 const Country = () => {
     return(
-        <div>
-
-        </div>
+        
+            this.props.nation
+        
     );
 }
 

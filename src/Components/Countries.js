@@ -18,7 +18,7 @@ class Countries extends Component {
             return <p>error can't display users...</p>
         }else {
             console.log(this.props.countries)
-        return this.props.countries.map(country => <Country key={country.id} nation={country}/>)
+        return this.props.countries.map(country => <Country key={country.name} nation={country}/>)
         }
     }
 
