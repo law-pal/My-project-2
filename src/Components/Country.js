@@ -5,7 +5,8 @@ const Country = (props) => {
        
     return (
         <div>
-            {props.nation.name}
+           <h1> {props.nation.name}</h1> 
+            <p>{props.nation.region}</p>
         </div>
     );
 }
