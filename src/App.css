@@ -1,15 +1,16 @@
-.containner
+.containner{
+  display: flex;
+}
 
 .country{
   max-width: 300px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
- 
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08), 0 1.5px 2px rgba(0,0,0,0.08);
+  overflow: hidden;
 }
 
 .country-body{
-  background-color: rgb(214, 211, 211);
   max-width: 300px;
 }
 
