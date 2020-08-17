@@ -85,7 +85,7 @@ body{
 .navbar-link{
   text-decoration: none;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: 0.2px;
 }
@@ -124,30 +124,30 @@ body{
 }
 
 /* styling for components */
-.container-united {
+.container-states {
   display: grid;
   grid-template: 150px 1fr 150px / 200px 1fr 400px;
   grid-gap: 0.5em ;
 }
 
-.yellow{
+.yellow-states{
   grid-column: 1 / 2;
   background-color: gold;
   height: 745px;
 }
 
-.red{
+.red-states{
   grid-column: 2 / 3;
   background-color: rgb(250, 92, 92);
   height: 745px;
 }
 
-.green{
+.green-states{
   grid-column: 3 / 4;
   height: 745px;
 }
 
-.green-child{
+.green-child-states{
   display: grid;
   grid-gap: 0.5em;
   grid-template-rows: 180px 180px 180px 180px;
@@ -155,36 +155,40 @@ body{
   border-radius: 20%;
 }
 
-.one{
+.one-states{
   background-color: rgb(255, 226, 96);
-  display: grid;
-  place-items: center;
 }
 
-.two{
+.one-states img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.two-states{
   background-color: lightblue;
 }
 
-.three{
+.three-states{
   background-color: rgb(138, 102, 61);
 }
 
-.four{
+.four-states{
   background-color: rgb(121, 237, 252);
 }
 
-.five{
+.five-states{
   background-color: rgb(255, 226, 96);
 }
 
-.six{
+.six-states{
   background-color: lightblue;
 }
 
-.seven{
+.seven-states{
   background-color: rgb(138, 102, 61);
 }
 
-.eight{
+.eight-states{
   background-color: rgb(121, 237, 252);
 } 
