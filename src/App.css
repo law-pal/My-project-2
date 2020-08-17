@@ -68,3 +68,45 @@ body{
 .flags{
   max-width: 100%;
 }
+
+#navbar{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(248, 173, 12, 0.678);
+  margin-top: -100px;
+  z-index: -10;
+}
+
+.navbar-link{
+  text-decoration: none;
+  color: #fff;
+}
+
+#main {
+  position: relative;
+  height: 110px;
+  width: 100%;
+  background-color: rgb(250, 68, 68);
+}
+
+/* #sub {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(248, 173, 12, 0.678);
+  margin-top: -100px;
+  z-index: -10;
+  
+} */
+
+#menu > #navbar {
+  transition: margin-top 2s ease;
+}
+#menu:hover > #navbar {
+  margin-top: 0;
+  transition: margin-top 2s ease;
+}

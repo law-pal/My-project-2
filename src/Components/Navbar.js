@@ -11,7 +11,37 @@ class Navbar extends Component {
     render() {
       return(
        <Router>
-         <ul>
+          <nav>
+            <div id="menu">
+                <div id="main">MAINMENU</div>
+                {/* <div id="sub"> */}
+                    <ul id='navbar'>
+                      <li>
+                        <Link className='navbar-link' to='/'>Countries</Link>
+                      </li>
+                      <li>
+                        <Link className='navbar-link' to='/United-States'>United States</Link>
+                      </li>
+                      <li>
+                        <Link className='navbar-link' to='/Colombia'>Colombia</Link>
+                      </li>
+                      <li>
+                        <Link className='navbar-link' to='/Mexico'>Mexico</Link>
+                      </li>
+                      <li>
+                        <Link className='navbar-link' to='/Spain'>Spain</Link>
+                      </li>
+                      <li>
+                        <Link className='navbar-link' to='/Portugal'>Portugal</Link>
+                      </li>
+                    </ul>
+                {/* </div> */}
+            </div>
+        </nav>
+
+
+
+         {/* <ul>
            <li>
              <Link className='navbar-link' to='/'>Countries</Link>
            </li>
@@ -30,7 +60,7 @@ class Navbar extends Component {
            <li>
              <Link className='navbar-link' to='/Portugal'>Portugal</Link>
            </li>
-         </ul>
+         </ul> */}
           <Switch>
            <Route exact path='/' component={Countries}/>
            <Route path='/United-States' component={UnitedStates}/>
