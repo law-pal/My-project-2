@@ -15,7 +15,6 @@ body{
   margin: auto;
   text-align: center;
   position: relative;
-  /* max-width: 1200px; */
 }
 
 .card{
@@ -23,7 +22,7 @@ body{
   display: inline-block;
   width: 240px;
   border-radius: 4px;
-  background-color: #fff;
+  background-color: rgba(250, 245, 245, 0.945);
   box-shadow: 0 1.5px 3px rgba(0,0,0,1), 0 1.5px 3px rgba(0,0,0,1);
   overflow: hidden;
   margin-bottom: 40px;
@@ -69,6 +68,7 @@ body{
   max-width: 100%;
 }
 
+/* Styling for navbar */
 #navbar{
   display: flex;
   justify-content: space-evenly;
@@ -122,3 +122,69 @@ body{
   margin-top: 0;
   transition: margin-top 2s ease;
 }
+
+/* styling for components */
+.container-united {
+  display: grid;
+  grid-template: 150px 1fr 150px / 200px 1fr 400px;
+  grid-gap: 0.5em ;
+}
+
+.yellow{
+  grid-column: 1 / 2;
+  background-color: gold;
+  height: 745px;
+}
+
+.red{
+  grid-column: 2 / 3;
+  background-color: rgb(250, 92, 92);
+  height: 745px;
+}
+
+.green{
+  grid-column: 3 / 4;
+  height: 745px;
+}
+
+.green-child{
+  display: grid;
+  grid-gap: 0.5em;
+  grid-template-rows: 180px 180px 180px 180px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  border-radius: 20%;
+}
+
+.one{
+  background-color: rgb(255, 226, 96);
+  display: grid;
+  place-items: center;
+}
+
+.two{
+  background-color: lightblue;
+}
+
+.three{
+  background-color: rgb(138, 102, 61);
+}
+
+.four{
+  background-color: rgb(121, 237, 252);
+}
+
+.five{
+  background-color: rgb(255, 226, 96);
+}
+
+.six{
+  background-color: lightblue;
+}
+
+.seven{
+  background-color: rgb(138, 102, 61);
+}
+
+.eight{
+  background-color: rgb(121, 237, 252);
+} 
