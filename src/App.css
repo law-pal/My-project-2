@@ -12,16 +12,16 @@ body{
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 30px;
-  max-width: 1440px;
   margin: auto;
   text-align: center;
   position: relative;
+  /* max-width: 1200px; */
 }
 
 .card{
   position: relative;
   display: inline-block;
-  width: 250px;
+  width: 240px;
   border-radius: 4px;
   background-color: #fff;
   box-shadow: 0 1.5px 3px rgba(0,0,0,1), 0 1.5px 3px rgba(0,0,0,1);
@@ -76,32 +76,30 @@ body{
   list-style: none;
   height: 100px;
   width: 100%;
-  background-color: rgba(248, 173, 12, 0.678);
+  background-color: rgba(2, 95, 122);
   margin-top: -100px;
   z-index: -10;
+  padding-right: 50px;
 }
 
 .navbar-link{
   text-decoration: none;
   color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+}
+
+.navbar-link:hover{
+  color: rgb(245, 177, 6);
 }
 
 #main {
   position: relative;
   height: 110px;
   width: 100%;
-  background-color: rgb(250, 68, 68);
+  background-color: rgb(151, 3, 3);
 }
-
-/* #sub {
-  position: relative;
-  height: 100px;
-  width: 100%;
-  background-color: rgba(248, 173, 12, 0.678);
-  margin-top: -100px;
-  z-index: -10;
-  
-} */
 
 #menu > #navbar {
   transition: margin-top 2s ease;

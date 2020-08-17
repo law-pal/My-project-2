@@ -14,7 +14,6 @@ class Navbar extends Component {
           <nav>
             <div id="menu">
                 <div id="main">MAINMENU</div>
-                {/* <div id="sub"> */}
                     <ul id='navbar'>
                       <li>
                         <Link className='navbar-link' to='/'>Countries</Link>
@@ -35,7 +34,6 @@ class Navbar extends Component {
                         <Link className='navbar-link' to='/Portugal'>Portugal</Link>
                       </li>
                     </ul>
-                {/* </div> */}
             </div>
         </nav>
 

@@ -13,7 +13,7 @@ class Countries extends Component {
 
     renderCountry = () => {
         if(this.props.loading) {
-            return <p>loading...</p>
+            return ''
         }else if(this.props.hasErrors) {
             return <p>error can't display countries...</p>
         }else {
