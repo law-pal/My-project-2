@@ -125,6 +125,8 @@ body{
 
 /* styling for components */
 .container-states {
+  width: 95%;
+  margin: auto;
   display: grid;
   grid-template: 150px 1fr 150px / 200px 1fr 400px;
   grid-gap: 0.5em ;
@@ -133,24 +135,24 @@ body{
 .yellow-states{
   grid-column: 1 / 2;
   background-color: gold;
-  height: 745px;
+  /* height: 700px; */
 }
 
 .red-states{
   grid-column: 2 / 3;
   background-color: rgb(250, 92, 92);
-  height: 745px;
+  /* height: 700px; */
 }
 
 .green-states{
   grid-column: 3 / 4;
-  height: 745px;
+  /* height: 700px; */
 }
 
 .green-child-states{
   display: grid;
   grid-gap: 0.5em;
-  grid-template-rows: 180px 180px 180px 180px;
+  grid-template-rows: 150px 150px 150px 150px;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   border-radius: 20%;
 }
@@ -161,34 +163,67 @@ body{
 
 .one-states img {
   max-width: 100%;
-  max-height: 100%;
-}
+  min-height: 100%;
+  display: block;
 
+}
 
 .two-states{
   background-color: lightblue;
+}
+
+.two-states img {
+  max-width: 100%;
+  min-height: 100%;
 }
 
 .three-states{
   background-color: rgb(138, 102, 61);
 }
 
+.three-states img {
+  max-width: 100%;
+  min-height: 100%;
+}
+
 .four-states{
   background-color: rgb(121, 237, 252);
 }
 
+.four-states img {
+  max-width: 100%;
+  min-height: 100%;
+}
 .five-states{
   background-color: rgb(255, 226, 96);
 }
 
+.five-states img {
+  max-width: 100%;
+  min-height: 100%;
+}
 .six-states{
   background-color: lightblue;
+}
+
+.six-states img {
+  max-width: 100%;
+  min-height: 100%;
 }
 
 .seven-states{
   background-color: rgb(138, 102, 61);
 }
 
+.seven-states img {
+  max-width: 100%;
+  min-height: 100%;
+}
 .eight-states{
   background-color: rgb(121, 237, 252);
 } 
+
+.eigth-states img {
+  max-width: 100%;
+  min-height: 100%;
+}

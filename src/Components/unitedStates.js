@@ -6,7 +6,7 @@ import usaFour from '../project2-img/usa-4.jpg'
 import usaFive from '../project2-img/usa-5.jpg'
 import usaSix from '../project2-img/usa-6.jpg'
 import usaSeven from '../project2-img/usa-7.jpg'
-import usaEigth from '../project2-img/usa-8.jpg'
+// import usaEigth from '../project2-img/usa-8.jpg'
 
 
 class UnitedStates extends Component {
@@ -29,7 +29,7 @@ class UnitedStates extends Component {
                         <div className='five-states'><img src={usaFive}/></div>
                         <div className='six-states'><img src={usaSix}/></div>
                         <div className='seven-states'><img src={usaSeven}/></div>
-                        <div className='eight-states'><img src={usaEigth}/></div>
+                        {/* <div className='eight-states'><img src={usaEigth}/></div> */}
                     </div>
                 </div>
             </div>
