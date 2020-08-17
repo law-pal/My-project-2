@@ -92,6 +92,7 @@ body{
 
 .navbar-link:hover{
   color: rgb(245, 177, 6);
+  text-decoration: underline;
 }
 
 #main {
@@ -99,7 +100,19 @@ body{
   position: relative;
   height: 110px;
   width: 100%;
-  background-color: rgb(151, 3, 3);
+  background-color: rgb(202, 20, 20);
+  display: flex;
+  justify-content: center;
+}
+
+.mainmenu{
+  align-self: center;
+  font-size: 40px;
+  letter-spacing: 0.2px;
+}
+
+.mainmenu:hover{
+  color: rgb(245, 177, 6);
 }
 
 #menu > #navbar {

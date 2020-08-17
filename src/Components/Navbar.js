@@ -13,7 +13,7 @@ class Navbar extends Component {
        <Router>
           <nav>
             <div id="menu">
-                <div id="main">MAINMENU</div>
+                <div id="main"><p className='mainmenu'>MAINMENU</p></div>
                     <ul id='navbar'>
                       <li>
                         <Link className='navbar-link' to='/'>Countries</Link>
