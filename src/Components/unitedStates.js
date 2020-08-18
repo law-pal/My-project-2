@@ -24,6 +24,7 @@ class UnitedStates extends Component {
                 return <UnitedStates key={country[239].name} nation={country}/>
             })
         }
+        console.log(countries[239])
     }
 
 
