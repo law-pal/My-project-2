@@ -18,7 +18,6 @@ class UnitedStates extends Component {
     }
 
     renderUnitedStates = (country) => {
-        console.log(this.props.countries)
         let countries;
         if(country) {
             countries = this.props.countries.map(country => {
