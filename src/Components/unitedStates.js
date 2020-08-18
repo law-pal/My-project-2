@@ -44,7 +44,7 @@ class UnitedStates extends Component {
                 </main>
                 <div className='green-states'>
                     <div className='green-child-states'>
-                        <div className='one-states'><img  src={usaOne} alt='#'/></div>
+                        <div className='one-states'><img src={usaOne} alt='#'/></div>
                         <div className='two-states'><img src={usaTwo}/></div>
                         <div className='three-states'><img src={usaThree}/></div>
                         <div className='four-states'><img src={usaFour}/></div>
