@@ -14,6 +14,9 @@ import {fetchCountries} from '../Actions/countriesActions';
 class Spain extends Component {
 
 
+    componentDidMount() {
+        this.props.dispatch(fetchCountries())
+    }
 
     render() {
  const spain = this.props.countries.length ? this.props.countries[212] : ''
@@ -24,6 +27,9 @@ class Spain extends Component {
         // console.log(spain)
         return(
             <div className='container-states'>
+                <div>
+
+                </div>
             <div className='yellow-states'>Left</div>
             <main className='red-states'>
                 <div>
@@ -45,7 +51,7 @@ class Spain extends Component {
                         {spain.population}
                         </p>
                         <p><strong>Language:</strong>
-                        English
+                        Spanish
                         </p>
                 </div>
             </main>
@@ -73,4 +79,4 @@ const mapStateToProps = state => ({
     // hasErrors: state.countries.hasErrors
 })
 
-export default connect(mapStateToProps)(UnitedStates);
+export default connect(mapStateToProps)(Spain);

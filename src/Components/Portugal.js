@@ -7,20 +7,50 @@ import portugalFive from '../project2-img/portugal-5.jpg'
 import portugalSix from '../project2-img/portugal-6.jpg'
 import portugalSeven from '../project2-img/portugal-7.jpg'
 import portugalEigth from '../project2-img/portugal-8.jpg'
-
+import {connect} from 'react-redux';
+import {fetchCountries} from '../Actions/countriesActions';
 
 
 
 class Portugal extends Component {
 
-
+    componentDidMount() {
+        this.props.dispatch(fetchCountries())
+    }
 
     render() {
+        const poertugal = this.props.countries.length ? this.props.countries[179] : ''
+        // let portugal = []
+        // if(this.props.countries.length > 0) {
+        //     portugal = this.props.countries[212]
+        // }
+        // console.log(portugal)
         return(
             <div className='container-states'>
             <div className='yellow-states'>Left</div>
             <main className='red-states'>
-                <div></div>
+                <div>
+                <h1>{portugal.name}</h1>
+                        <img src={portugal.flag}/>
+                        <p><strong>Capital:</strong>
+                        {portugal.capital}
+                        </p>
+                        <p><strong>Region:</strong>
+                        {portugal.region}
+                        </p>
+                        <p><strong>Subregion:</strong>
+                        {portugal.subregion}
+                        </p>
+                        <p><strong>Borders:</strong>
+                        {portugal.borders}
+                        </p>
+                        <p><strong>Population:</strong>
+                        {portugal.population}
+                        </p>
+                        <p><strong>Language:</strong>
+                        Portuguese
+                        </p>
+                </div>
             </main>
             <div className='green-states'>
                 <div className='green-child-states'>
@@ -39,5 +69,10 @@ class Portugal extends Component {
     }
 }
 
+const mapStateToProps = state => ({
+    countries: state.countries.countries,
+    // loading: state.countries.loading,
+    // hasErrors: state.countries.hasErrors
+})
 
-export default Portugal;
+export default connect(mapStateToProps)(Portugal);
