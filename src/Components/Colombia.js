@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import colombiaOne from '../project2-img/colombia-1.jpg'
 
 
 class Colombia extends Component {
@@ -11,16 +11,16 @@ class Colombia extends Component {
             <div className='container-united'>
             <div className='yellow'>Left</div>
             <main className='red'>Main</main>
-            <div className='green'>
-                <div className='green-child'>
-                    <div className='one'><h1>Lawrence</h1></div>
-                    <div className='two'>2</div>
-                    <div className='three'>3</div>
-                    <div className='four'>4</div>
-                    <div className='five'>5</div>
-                    <div className='six'>6</div>
-                    <div className='seven'>7</div>
-                    <div className='eight'>8</div>
+            <div className='green-states'>
+                <div className='green-child-states'>
+                    <div className='one-states'><img src={colombiaOne}/></div>
+                    <div className='two-states'>2</div>
+                    <div className='three-states'>3</div>
+                    <div className='four-states'>4</div>
+                    <div className='five-states'>5</div>
+                    <div className='six-states'>6</div>
+                    <div className='seven-states'>7</div>
+                    <div className='eight-states'>8</div>
                 </div>
             </div>
         </div>
