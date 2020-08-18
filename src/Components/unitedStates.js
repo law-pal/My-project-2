@@ -8,13 +8,23 @@ import usaSix from '../project2-img/usa-6.jpg';
 import usaSeven from '../project2-img/usa-7.jpg';
 import usaEigth from '../project2-img/usa-8.jpg';
 import {connect} from 'react-redux';
-
+import {fetchCountries} from '../Actions/countriesActions';
 
 class UnitedStates extends Component {
 
-    renderUnitedStates = () => {
+    componentDidMount() {
+        this.props.dispatch(fetchCountries())
+    }
+
+    renderUnitedStates = (country) => {
         console.log(this.props.countries)
-        return this.props.countries.map(country => <UnitedStates key={country.id[239]} nation={country}/>)
+        let countries;
+        if(country) {
+            countries = this.props.countries.map(country => {
+                return <UnitedStates key={country.id} nation={country}/>
+            })
+        }
+        // return this.props.countries.map(country => <UnitedStates key={country.id} nation={country}/>)
     }
 
 
