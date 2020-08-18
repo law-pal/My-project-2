@@ -23,13 +23,13 @@ class Colombia extends Component {
                 <div className='green-states'>
                     <div className='green-child-states'>
                         <div className='one-states'><img src={colombiaOne}/></div>
-                        <div className='two-states'><img src={usaTwo}/></div>
-                        <div className='three-states'><img src={usaThree}/></div>
-                        <div className='four-states'><img src={usaFour}/></div>
-                        <div className='five-states'><img src={usaFive}/></div>
-                        <div className='six-states'><img src={usaSix}/></div>
-                        <div className='seven-states'><img src={usaSeven}/></div>
-                        <div className='eight-states'><img className='miami' src={usaEigth}/></div>
+                        <div className='two-states'><img src={colombiaTwo}/></div>
+                        <div className='three-states'><img src={colombiaThree}/></div>
+                        <div className='four-states'><img src={colombiaFour}/></div>
+                        <div className='five-states'><img src={colombiaFive}/></div>
+                        <div className='six-states'><img src={colombiaSix}/></div>
+                        <div className='seven-states'><img src={colombiaSeven}/></div>
+                        <div className='eight-states'><img className='img-eight' src={colombiaEight}/></div>
                     </div>
                 </div>
             </div>
