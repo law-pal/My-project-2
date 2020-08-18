@@ -33,7 +33,7 @@ class UnitedStates extends Component {
           
             <div className='container-states'>
             <div>
-                {/* {this.renderUnitedStates()} */}
+                {this.renderUnitedStates()}
             </div>
                 <div className='yellow-states'>
                     <div className='about-country'>
