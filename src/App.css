@@ -135,18 +135,15 @@ body{
 .yellow-states{
   grid-column: 1 / 2;
   background-color: gold;
-  /* height: 700px; */
 }
 
 .red-states{
   grid-column: 2 / 3;
   background-color: rgb(250, 92, 92);
-  /* height: 700px; */
 }
 
 .green-states{
   grid-column: 3 / 4;
-  /* height: 700px; */
 }
 
 .green-child-states{
@@ -157,10 +154,6 @@ body{
   border-radius: 20%;
 }
 
-/* .one-states{
-  background-color: rgb(255, 226, 96);
-} */
-
 .one-states img {
   max-width: 100%;
   min-height: 100%;
@@ -169,10 +162,6 @@ body{
 .one-states img:hover{
   box-shadow: 0 5px 15px rgba(5, 5, 5, 3);
 }
-
-/* .two-states{
-  background-color: lightblue;
-} */
 
 .two-states img {
   max-width: 100%;
@@ -183,10 +172,6 @@ body{
   box-shadow: 0 5px 15px rgba(5, 5, 5, 3);
 }
 
-/* .three-states{
-  background-color: rgb(138, 102, 61);
-} */
-
 .three-states img {
   max-width: 100%;
   min-height: 100%;
@@ -196,10 +181,6 @@ body{
   box-shadow: 0 5px 15px rgba(5, 5, 5, 3);
 }
 
-/* .four-states{
-  background-color: rgb(121, 237, 252);
-} */
-
 .four-states img {
   max-width: 100%;
   min-height: 100%;
@@ -208,9 +189,6 @@ body{
 .four-states img:hover{
   box-shadow: 0 5px 15px rgba(5, 5, 5, 3);
 }
-/* .five-states{
-  background-color: rgb(255, 226, 96);
-} */
 
 .five-states img {
   max-width: 100%;
@@ -220,9 +198,6 @@ body{
 .five-states img:hover{
   box-shadow: 0 5px 15px rgba(5, 5, 5, 3);
 }
-/* .six-states{
-  background-color: lightblue;
-} */
 
 .six-states img {
   max-width: 100%;
@@ -233,10 +208,6 @@ body{
   box-shadow: 0 5px 15px rgba(5, 5, 5, 3);
 }
 
-/* .seven-states{
-  background-color: rgb(138, 102, 61);
-} */
-
 .seven-states img {
   max-width: 100%;
   min-height: 100%;
@@ -245,9 +216,6 @@ body{
 .seven-states img:hover{
   box-shadow: 0 5px 15px rgba(5, 5, 5, 3);
 }
-/* .eight-states{
-  background-color: rgb(121, 237, 252);
-}  */
 
 .img-eight{
   max-width: 100%;

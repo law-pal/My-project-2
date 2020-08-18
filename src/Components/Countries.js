@@ -17,10 +17,8 @@ class Countries extends Component {
         }else if(this.props.hasErrors) {
             return <p>error can't display countries...</p>
         }else {
-            console.log(this.props.countries)
-        return this.props.countries.map(country => <Country key={country.id} nation={country}/>
-           
-            );
+        return this.props.countries.map(country => <Country key={country.name} nation={country}/>
+           );
         }
     }
 

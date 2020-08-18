@@ -29,7 +29,7 @@ class Mexico extends Component {
            <main className='red-states'>
                 <div>
                 <h1>{mexico.name}</h1>
-                        <img src={mexico.flag}/>
+                        <img src={mexico.flag} alt='#'/>
                         <p><strong>Capital:</strong>
                         {mexico.capital}
                         </p>
@@ -52,14 +52,14 @@ class Mexico extends Component {
             </main>
             <div className='green-states'>
                 <div className='green-child-states'>
-                    <div className='one-states'><img src={mexicoOne}/></div>
-                    <div className='two-states'><img src={mexicoTwo}/></div>
-                    <div className='three-states'><img src={mexicoThree}/></div>
-                    <div className='four-states'><img src={mexicoFour}/></div>
-                    <div className='five-states'><img src={mexicoFive}/></div>
-                    <div className='six-states'><img src={mexicoSix}/></div>
-                    <div className='seven-states'><img src={mexicoSeven}/></div>
-                    <div className='eight-states'><img className='img-eight' src={mexicoEigth}/></div>
+                    <div className='one-states'><img src={mexicoOne} alt='#'/></div>
+                    <div className='two-states'><img src={mexicoTwo} alt='#'/></div>
+                    <div className='three-states'><img src={mexicoThree} alt='#'/></div>
+                    <div className='four-states'><img src={mexicoFour} alt='#'/></div>
+                    <div className='five-states'><img src={mexicoFive} alt='#'/></div>
+                    <div className='six-states'><img src={mexicoSix} alt='#'/></div>
+                    <div className='seven-states'><img src={mexicoSeven} alt='#'/></div>
+                    <div className='eight-states'><img className='img-eight' src={mexicoEigth} alt='#'/></div>
                 </div>
             </div>
         </div>

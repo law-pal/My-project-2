@@ -22,7 +22,6 @@ class Colombia extends Component {
         // if(this.props.countries.length > 0) {
         //     colombia = this.props.countries[212]
         // }
-        // console.log(colombia)
         return(
             <div className='container-states'>
                 <div></div>
@@ -30,7 +29,7 @@ class Colombia extends Component {
                 <main className='red-states'>
                     <div>
                     <h1>{colombia.name}</h1>
-                        <img src={colombia.flag}/>
+                        <img src={colombia.flag} alt='#'/>
                         <p><strong>Capital:</strong>
                         {colombia.capital}
                         </p>
@@ -53,14 +52,14 @@ class Colombia extends Component {
                 </main>
                 <div className='green-states'>
                     <div className='green-child-states'>
-                        <div className='one-states'><img src={colombiaOne}/></div>
-                        <div className='two-states'><img src={colombiaTwo}/></div>
-                        <div className='three-states'><img src={colombiaThree}/></div>
-                        <div className='four-states'><img src={colombiaFour}/></div>
-                        <div className='five-states'><img src={colombiaFive}/></div>
-                        <div className='six-states'><img src={colombiaSix}/></div>
-                        <div className='seven-states'><img src={colombiaSeven}/></div>
-                        <div className='eight-states'><img className='img-eight' src={colombiaEight}/></div>
+                        <div className='one-states'><img src={colombiaOne} alt='#'/></div>
+                        <div className='two-states'><img src={colombiaTwo} alt='#'/></div>
+                        <div className='three-states'><img src={colombiaThree} alt='#'/></div>
+                        <div className='four-states'><img src={colombiaFour} alt='#'/></div>
+                        <div className='five-states'><img src={colombiaFive} alt='#'/></div>
+                        <div className='six-states'><img src={colombiaSix} alt='#'/></div>
+                        <div className='seven-states'><img src={colombiaSeven} alt='#'/></div>
+                        <div className='eight-states'><img className='img-eight' src={colombiaEight} alt='#'/></div>
                     </div>
                 </div>
             </div>

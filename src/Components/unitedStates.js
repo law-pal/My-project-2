@@ -26,19 +26,17 @@ class UnitedStates extends Component {
         return(
           
             <div className='container-states'>
-            <div>
-              
-            </div>
+                <div>
+                
+                </div>
                 <div className='yellow-states'>
                     <div className='about-country'>
-                        <h1></h1>
-                        <p></p>
                     </div>
                 </div>
                 <main className='red-states'>
                     <div>
                         <h1>{usa.name}</h1>
-                        <img src={usa.flag}/>
+                        <img src={usa.flag} alt='#'/>
                         <p><strong>Capital:</strong>
                         {usa.capital}
                         </p>
@@ -63,13 +61,13 @@ class UnitedStates extends Component {
                 <div className='green-states'>
                     <div className='green-child-states'>
                         <div className='one-states'><img src={usaOne} alt='#'/></div>
-                        <div className='two-states'><img src={usaTwo}/></div>
-                        <div className='three-states'><img src={usaThree}/></div>
-                        <div className='four-states'><img src={usaFour}/></div>
-                        <div className='five-states'><img src={usaFive}/></div>
-                        <div className='six-states'><img src={usaSix}/></div>
-                        <div className='seven-states'><img src={usaSeven}/></div>
-                        <div className='eight-states'><img className='img-eight' src={usaEigth}/></div>
+                        <div className='two-states'><img src={usaTwo} alt='#'/></div>
+                        <div className='three-states'><img src={usaThree} alt='#'/></div>
+                        <div className='four-states'><img src={usaFour} alt='#'/></div>
+                        <div className='five-states'><img src={usaFive} alt='#'/></div>
+                        <div className='six-states'><img src={usaSix} alt='#'/></div>
+                        <div className='seven-states'><img src={usaSeven} alt='#'/></div>
+                        <div className='eight-states'><img className='img-eight' src={usaEigth} alt='#'/></div>
                     </div>
                 </div>
             </div>            

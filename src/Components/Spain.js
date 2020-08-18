@@ -32,7 +32,7 @@ class Spain extends Component {
             <main className='red-states'>
                 <div>
                 <h1>{spain.name}</h1>
-                        <img src={spain.flag}/>
+                        <img src={spain.flag} alt='#'/>
                         <p><strong>Capital:</strong>
                         {spain.capital}
                         </p>
@@ -55,14 +55,14 @@ class Spain extends Component {
             </main>
             <div className='green-states'>
                 <div className='green-child-states'>
-                    <div className='one-states'><img src={spainOne}/></div>
-                    <div className='two-states'><img src={spainTwo}/></div>
-                    <div className='three-states'><img src={spainThree}/></div>
-                    <div className='four-states'><img src={spainFour}/></div>
-                    <div className='five-states'><img src={spainFive}/></div>
-                    <div className='six-states'><img src={spainSix}/></div>
-                    <div className='seven-states'><img src={spainSeven}/></div>
-                    <div className='eight-states'><img className='img-eight' src={spainEigth}/></div>
+                    <div className='one-states'><img src={spainOne} alt='#'/></div>
+                    <div className='two-states'><img src={spainTwo} alt='#'/></div>
+                    <div className='three-states'><img src={spainThree} alt='#'/></div>
+                    <div className='four-states'><img src={spainFour} alt='#'/></div>
+                    <div className='five-states'><img src={spainFive} alt='#'/></div>
+                    <div className='six-states'><img src={spainSix} alt='#'/></div>
+                    <div className='seven-states'><img src={spainSeven} alt='#'/></div>
+                    <div className='eight-states'><img className='img-eight' src={spainEigth} alt='#'/></div>
                 </div>
             </div>
         </div>

@@ -24,7 +24,6 @@ class Portugal extends Component {
         // if(this.props.countries.length > 0) {
         //     portugal = this.props.countries[212]
         // }
-        // console.log(portugal)
         return(
             <div className='container-states'>
                 <div></div>
@@ -32,7 +31,7 @@ class Portugal extends Component {
             <main className='red-states'>
                 <div>
                 <h1>{portugal.name}</h1>
-                        <img src={portugal.flag}/>
+                        <img src={portugal.flag} alt='#'/>
                         <p><strong>Capital:</strong>
                         {portugal.capital}
                         </p>
@@ -55,14 +54,14 @@ class Portugal extends Component {
             </main>
             <div className='green-states'>
                 <div className='green-child-states'>
-                    <div className='one-states'><img src={portugalOne}/></div>
-                    <div className='two-states'><img src={portugalTwo}/></div>
-                    <div className='three-states'><img src={portugalThree}/></div>
-                    <div className='four-states'><img src={portugalFour}/></div>
-                    <div className='five-states'><img src={portugalFive}/></div>
-                    <div className='six-states'><img src={portugalSix}/></div>
-                    <div className='seven-states'><img src={portugalSeven}/></div>
-                    <div className='eight-states'><img className='img-eight' src={portugalEigth}/></div>
+                    <div className='one-states'><img src={portugalOne} alt='#'/></div>
+                    <div className='two-states'><img src={portugalTwo} alt='#'/></div>
+                    <div className='three-states'><img src={portugalThree} alt='#'/></div>
+                    <div className='four-states'><img src={portugalFour} alt='#'/></div>
+                    <div className='five-states'><img src={portugalFive} alt='#'/></div>
+                    <div className='six-states'><img src={portugalSix} alt='#'/></div>
+                    <div className='seven-states'><img src={portugalSeven} alt='#'/></div>
+                    <div className='eight-states'><img className='img-eight' src={portugalEigth} alt='#'/></div>
                 </div>
             </div>
         </div>
@@ -72,8 +71,6 @@ class Portugal extends Component {
 
 const mapStateToProps = state => ({
     countries: state.countries.countries,
-    // loading: state.countries.loading,
-    // hasErrors: state.countries.hasErrors
 })
 
 export default connect(mapStateToProps)(Portugal);
