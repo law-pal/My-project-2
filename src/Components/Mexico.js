@@ -24,9 +24,9 @@ class Mexico extends Component {
         // console.log(mexico)
         return(
             <div className='container-states'>
+                 <div></div>
             <div className='yellow-states'>Left</div>
-            <div></div>
-            <main className='red-states'>
+           <main className='red-states'>
                 <div>
                 <h1>{mexico.name}</h1>
                         <img src={mexico.flag}/>
