@@ -7,11 +7,14 @@ import usaFive from '../project2-img/usa-5.jpg';
 import usaSix from '../project2-img/usa-6.jpg';
 import usaSeven from '../project2-img/usa-7.jpg';
 import usaEigth from '../project2-img/usa-8.jpg';
-import connect from 'react-redux';
+import {connect} from 'react-redux';
 
 
 class UnitedStates extends Component {
 
+    renderUnitedStates = () => {
+        return this.props.countries[239]
+    }
 
 
     render() {
@@ -43,5 +46,10 @@ class UnitedStates extends Component {
     }
 }
 
+const mapStateToProps = state => ({
+    countries: state.countries.countries,
+    loading: state.countries.loading,
+    hasErrors: state.countries.hasErrors
+})
 
-export default UnitedStates;
+export default connect(mapStateToProps)(UnitedStates);
