@@ -192,7 +192,7 @@ body{
   min-height: 100%;
 }
 
-.three.states img:hover{
+.three-states img:hover{
   box-shadow: 0 5px 15px rgba(5, 5, 5, 3);
 }
 
@@ -242,7 +242,7 @@ body{
   min-height: 100%;
 }
 
-.seven.states img:hover{
+.seven-states img:hover{
   box-shadow: 0 5px 15px rgba(5, 5, 5, 3);
 }
 /* .eight-states{
@@ -254,6 +254,6 @@ body{
   min-height: 100%;
 }
 
-.miami img:hover{
+.miami:hover{
   box-shadow: 0 5px 15px rgba(5, 5, 5, 3);
 }
