@@ -13,7 +13,6 @@ import {fetchCountries} from '../Actions/countriesActions';
 
 class Spain extends Component {
 
-
     componentDidMount() {
         this.props.dispatch(fetchCountries())
     }

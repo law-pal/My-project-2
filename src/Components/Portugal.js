@@ -19,7 +19,7 @@ class Portugal extends Component {
     }
 
     render() {
-        const poertugal = this.props.countries.length ? this.props.countries[179] : ''
+        const portugal = this.props.countries.length ? this.props.countries[179] : ''
         // let portugal = []
         // if(this.props.countries.length > 0) {
         //     portugal = this.props.countries[212]

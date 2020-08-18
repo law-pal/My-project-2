@@ -7,18 +7,48 @@ import colombiaFive from '../project2-img/colombia-5.jpg'
 import colombiaSix from '../project2-img/colombia-6.jpg'
 import colombiaSeven from '../project2-img/colombia-7.jpg'
 import colombiaEight from '../project2-img/colombia-8.jpg'
-
+import {connect} from 'react-redux';
+import {fetchCountries} from '../Actions/countriesActions';
 
 class Colombia extends Component {
 
-
+    componentDidMount() {
+        this.props.dispatch(fetchCountries())
+    }
 
     render() {
+        const colombia = this.props.countries.length ? this.props.countries[51] : ''
+        // let colombia = []
+        // if(this.props.countries.length > 0) {
+        //     colombia = this.props.countries[212]
+        // }
+        // console.log(colombia)
         return(
             <div className='container-states'>
                 <div className='yellow-states'>Left</div>
                 <main className='red-states'>
-                    <div></div>
+                    <div>
+                    <h1>{colombia.name}</h1>
+                        <img src={colombia.flag}/>
+                        <p><strong>Capital:</strong>
+                        {colombia.capital}
+                        </p>
+                        <p><strong>Region:</strong>
+                        {colombia.region}
+                        </p>
+                        <p><strong>Subregion:</strong>
+                        {colombia.subregion}
+                        </p>
+                        <p><strong>Borders:</strong>
+                        {colombia.borders}
+                        </p>
+                        <p><strong>Population:</strong>
+                        {colombia.population}
+                        </p>
+                        <p><strong>Language:</strong>
+                        Spanish
+                        </p>
+                    </div>
                 </main>
                 <div className='green-states'>
                     <div className='green-child-states'>
@@ -38,4 +68,10 @@ class Colombia extends Component {
 }
 
 
-export default Colombia;
+const mapStateToProps = state => ({
+    countries: state.countries.countries,
+    // loading: state.countries.loading,
+    // hasErrors: state.countries.hasErrors
+})
+
+export default connect(mapStateToProps)(Colombia);
