@@ -179,6 +179,10 @@ body{
   min-height: 100%;
 }
 
+.one-states img:hover{
+  box-shadow: 0 5px 15px rgba(5, 5, 5, 3);
+}
+
 /* .three-states{
   background-color: rgb(138, 102, 61);
 } */
@@ -186,6 +190,10 @@ body{
 .three-states img {
   max-width: 100%;
   min-height: 100%;
+}
+
+.one-states img:hover{
+  box-shadow: 0 5px 15px rgba(5, 5, 5, 3);
 }
 
 /* .four-states{
@@ -196,6 +204,10 @@ body{
   max-width: 100%;
   min-height: 100%;
 }
+
+.one-states img:hover{
+  box-shadow: 0 5px 15px rgba(5, 5, 5, 3);
+}
 /* .five-states{
   background-color: rgb(255, 226, 96);
 } */
@@ -203,6 +215,10 @@ body{
 .five-states img {
   max-width: 100%;
   min-height: 100%;
+}
+
+.five-states img:hover{
+  box-shadow: 0 5px 15px rgba(5, 5, 5, 3);
 }
 /* .six-states{
   background-color: lightblue;
@@ -213,6 +229,10 @@ body{
   min-height: 100%;
 }
 
+.six-states img:hover{
+  box-shadow: 0 5px 15px rgba(5, 5, 5, 3);
+}
+
 /* .seven-states{
   background-color: rgb(138, 102, 61);
 } */
@@ -221,6 +241,10 @@ body{
   max-width: 100%;
   min-height: 100%;
 }
+
+.seven.states img:hover{
+  box-shadow: 0 5px 15px rgba(5, 5, 5, 3);
+}
 /* .eight-states{
   background-color: rgb(121, 237, 252);
 }  */
@@ -228,4 +252,8 @@ body{
 .miami{
   max-width: 100%;
   min-height: 100%;
+}
+
+.miami img:hover{
+  box-shadow: 0 5px 15px rgba(5, 5, 5, 3);
 }
