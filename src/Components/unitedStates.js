@@ -23,7 +23,6 @@ class UnitedStates extends Component {
         // if(this.props.countries.length > 0) {
         //     usa = this.props.countries[239]
         // }
-        // console.log(usa)
         return(
           
             <div className='container-states'>

@@ -23,7 +23,6 @@ class Spain extends Component {
         // if(this.props.countries.length > 0) {
         //     spain = this.props.countries[212]
         // }
-        // console.log(spain)
         return(
             <div className='container-states'>
                 <div>
