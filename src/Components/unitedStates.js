@@ -18,17 +18,17 @@ class UnitedStates extends Component {
     }
 
      render() {
-        // const usa = this.props.countries.length ? this.props.countries[239] : ''
-        let usa = []
-        if(this.props.countries.length > 0) {
-            usa = this.props.countries[239]
-        }
-        console.log(usa)
+        const usa = this.props.countries.length ? this.props.countries[239] : ''
+        // let usa = []
+        // if(this.props.countries.length > 0) {
+        //     usa = this.props.countries[239]
+        // }
+        // console.log(usa)
         return(
           
             <div className='container-states'>
             <div>
-                {/* {this.renderUnitedStates()} */}
+              
             </div>
                 <div className='yellow-states'>
                     <div className='about-country'>
@@ -80,8 +80,6 @@ class UnitedStates extends Component {
 
 const mapStateToProps = state => ({
     countries: state.countries.countries,
-    // loading: state.countries.loading,
-    // hasErrors: state.countries.hasErrors
 })
 
 export default connect(mapStateToProps)(UnitedStates);
