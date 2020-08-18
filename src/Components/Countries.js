@@ -21,27 +21,15 @@ class Countries extends Component {
             console.log(this.props.countries)
         return this.props.countries.map(country => <Country key={country.id} nation={country}/>
            
-            )
+            );
         }
     }
-
-    // renderUnitedStates = (country) => {
-    //     console.log(this.props.countries)
-    //     let countries;
-    //     if(country) {
-    //         countries = this.props.countries.map(country => {
-    //             return <UnitedStates key={country.id} nation={country}/>
-    //         })
-    //     }
-    // }
-
 
     render() {
         return(
             
             <div>
                 {this.renderCountry()}
-                {/* {this.renderUnitedStates()} */}
             </div>
         );
     }
