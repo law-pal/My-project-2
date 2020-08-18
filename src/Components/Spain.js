@@ -74,8 +74,6 @@ class Spain extends Component {
 
 const mapStateToProps = state => ({
     countries: state.countries.countries,
-    // loading: state.countries.loading,
-    // hasErrors: state.countries.hasErrors
 })
 
 export default connect(mapStateToProps)(Spain);

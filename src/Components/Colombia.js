@@ -25,6 +25,7 @@ class Colombia extends Component {
         // console.log(colombia)
         return(
             <div className='container-states'>
+                <div></div>
                 <div className='yellow-states'>Left</div>
                 <main className='red-states'>
                     <div>
@@ -70,8 +71,6 @@ class Colombia extends Component {
 
 const mapStateToProps = state => ({
     countries: state.countries.countries,
-    // loading: state.countries.loading,
-    // hasErrors: state.countries.hasErrors
 })
 
 export default connect(mapStateToProps)(Colombia);
