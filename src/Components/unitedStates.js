@@ -17,34 +17,43 @@ class UnitedStates extends Component {
         this.props.dispatch(fetchCountries())
     }
 
-    renderUnitedStates = (country) => {
-        let countries;
-        if(country) {
-            countries = this.props.countries[239].filter(country => {
-                if(country === this.props.countries[239].length)
-                return <UnitedStates key={country.id} nation={country}/>
-            })
-        }
-        
-    }
+    // renderUnitedStates = (country) => {
+    //     let countries;
+    //     if(country) {
+    //         countries = this.props.countries.map(country => {
+    //             return <UnitedStates key={country.id} nation={country}/>
+    //         })
+    //     }
+    //     console.log(this.props.countries)
+    // }
 
 
 
     render() {
+        console.log(this.props.countries)
+        // const usa = this.props.countries.length ? this.props.countries[239] : ''
+        let usa;
+        if(this.props.countries.length > 0) {
+            usa = this.props.countries[239]
+        }
+        console.log(usa)
         return(
           
             <div className='container-states'>
             <div>
-                {this.renderUnitedStates()}
+                {/* {this.renderUnitedStates()} */}
             </div>
                 <div className='yellow-states'>
                     <div className='about-country'>
-                        <h1>{}</h1>
+                        <h1></h1>
                         <p></p>
                     </div>
                 </div>
                 <main className='red-states'>
-                    <div>{this.props.name}</div>
+                    <div>
+                        <h1>{usa.name}</h1>
+                        <img src={usa.flag}/>
+                    </div>
                 </main>
                 <div className='green-states'>
                     <div className='green-child-states'>
@@ -58,7 +67,7 @@ class UnitedStates extends Component {
                         <div className='eight-states'><img className='img-eight' src={usaEigth}/></div>
                     </div>
                 </div>
-            </div>
+            </div>            
         );
     }
 }
