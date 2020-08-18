@@ -55,8 +55,8 @@ class UnitedStates extends Component {
                         <p><strong>Population:</strong>
                         {usa.population}
                         </p>
-                        <p><strong>Languages:</strong>
-                        {usa.languages[0].name}
+                        <p><strong>Language:</strong>
+                        English
                         </p>
 
                     </div>
