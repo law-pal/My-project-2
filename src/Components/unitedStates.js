@@ -40,6 +40,25 @@ class UnitedStates extends Component {
                     <div>
                         <h1>{usa.name}</h1>
                         <img src={usa.flag}/>
+                        <p><strong>Capital:</strong>
+                        {usa.capital}
+                        </p>
+                        <p><strong>Region:</strong>
+                        {usa.region}
+                        </p>
+                        <p><strong>Subregion:</strong>
+                        {usa.subregion}
+                        </p>
+                        <p><strong>Borders:</strong>
+                        {usa.borders}
+                        </p>
+                        <p><strong>Population:</strong>
+                        {usa.population}
+                        </p>
+                        <p><strong>Languages:</strong>
+                        {usa.languages[0].name}
+                        </p>
+
                     </div>
                 </main>
                 <div className='green-states'>
