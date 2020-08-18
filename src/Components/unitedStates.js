@@ -21,7 +21,7 @@ class UnitedStates extends Component {
         let countries;
         if(country) {
             countries = this.props.countries.map(country => {
-                return <UnitedStates key={country.id} nation={country}/>
+                return <UnitedStates key={this.props.countries[239].name} nation={country}/>
             })
         }
         // return this.props.countries.map(country => <UnitedStates key={country.id} nation={country}/>)
@@ -37,7 +37,7 @@ class UnitedStates extends Component {
             </div>
                 <div className='yellow-states'>
                     <div className='about-country'>
-                        <h1>United States</h1>
+                        <h1>{props.nation.name}</h1>
                         <p></p>
                     </div>
                 </div>
