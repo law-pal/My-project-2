@@ -17,22 +17,9 @@ class UnitedStates extends Component {
         this.props.dispatch(fetchCountries())
     }
 
-    // renderUnitedStates = (country) => {
-    //     let countries;
-    //     if(country) {
-    //         countries = this.props.countries.map(country => {
-    //             return <UnitedStates key={country.id} nation={country}/>
-    //         })
-    //     }
-    //     console.log(this.props.countries)
-    // }
-
-
-
-    render() {
-        console.log(this.props.countries)
+     render() {
         // const usa = this.props.countries.length ? this.props.countries[239] : ''
-        let usa;
+        let usa = []
         if(this.props.countries.length > 0) {
             usa = this.props.countries[239]
         }
@@ -57,7 +44,7 @@ class UnitedStates extends Component {
                 </main>
                 <div className='green-states'>
                     <div className='green-child-states'>
-                        <div className='one-states'><img src={usaOne} alt='#'/></div>
+                        <div className='one-states'><img  src={usaOne} alt='#'/></div>
                         <div className='two-states'><img src={usaTwo}/></div>
                         <div className='three-states'><img src={usaThree}/></div>
                         <div className='four-states'><img src={usaFour}/></div>
