@@ -13,7 +13,7 @@ import {connect} from 'react-redux';
 class UnitedStates extends Component {
 
     renderUnitedStates = () => {
-        
+        console.log(this.props.countries)
         return this.props.countries.map(country => <UnitedStates key={country.id[239]} nation={country}/>)
     }
 
