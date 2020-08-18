@@ -20,11 +20,11 @@ class UnitedStates extends Component {
     renderUnitedStates = (country) => {
         let countries;
         if(country) {
-            countries = this.props.countries.filter(country => {
-                return <UnitedStates key={country[239].name} nation={country}/>
+            countries = this.props.countries[239].filter(country => {
+                return <UnitedStates key={country.id} nation={country}/>
             })
         }
-        console.log(countries[239])
+        console.log(this.props.countries[239])
     }
 
 
