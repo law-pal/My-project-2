@@ -13,13 +13,18 @@ import {connect} from 'react-redux';
 class UnitedStates extends Component {
 
     renderUnitedStates = () => {
-        return this.props.countries[239]
+        console.log(this.props.countries[239])
+        return this.props.countries.map(country => <UnitedStates key={country.id} nation={country}/>)
     }
 
 
     render() {
         return(
+          
             <div className='container-states'>
+            <div>
+                {this.renderUnitedStates()}
+            </div>
                 <div className='yellow-states'>
                     <div className='about-country'>
                         <h1>United States</h1>
@@ -31,7 +36,7 @@ class UnitedStates extends Component {
                 </main>
                 <div className='green-states'>
                     <div className='green-child-states'>
-                        <div className='one-states'><img src={usaOne}/></div>
+                        <div className='one-states'><img src={usaOne} alt='#'/></div>
                         <div className='two-states'><img src={usaTwo}/></div>
                         <div className='three-states'><img src={usaThree}/></div>
                         <div className='four-states'><img src={usaFour}/></div>
