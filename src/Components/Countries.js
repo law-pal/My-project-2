@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Country from './Country';
 import {fetchCountries} from '../Actions/countriesActions';
 import {connect} from 'react-redux';
+import UnitedStates from './unitedStates'
 
 
 class Countries extends Component {
@@ -24,12 +25,23 @@ class Countries extends Component {
         }
     }
 
+    renderUnitedStates = (country) => {
+        console.log(this.props.countries)
+        let countries;
+        if(country) {
+            countries = this.props.countries.map(country => {
+                return <UnitedStates key={country.id} nation={country}/>
+            })
+        }
+    }
+
 
     render() {
         return(
             
             <div>
                 {this.renderCountry()}
+                {this.renderUnitedStates()}
             </div>
         );
     }
