@@ -157,71 +157,73 @@ body{
   border-radius: 20%;
 }
 
-.one-states{
+/* .one-states{
   background-color: rgb(255, 226, 96);
-}
+} */
 
 .one-states img {
   max-width: 100%;
   min-height: 100%;
-  display: block;
-
 }
 
-.two-states{
+.one-states img:hover{
+  box-shadow: 0 5px 15px rgba(5, 5, 5, 3);
+}
+
+/* .two-states{
   background-color: lightblue;
-}
+} */
 
 .two-states img {
   max-width: 100%;
   min-height: 100%;
 }
 
-.three-states{
+/* .three-states{
   background-color: rgb(138, 102, 61);
-}
+} */
 
 .three-states img {
   max-width: 100%;
   min-height: 100%;
 }
 
-.four-states{
+/* .four-states{
   background-color: rgb(121, 237, 252);
-}
+} */
 
 .four-states img {
   max-width: 100%;
   min-height: 100%;
 }
-.five-states{
+/* .five-states{
   background-color: rgb(255, 226, 96);
-}
+} */
 
 .five-states img {
   max-width: 100%;
   min-height: 100%;
 }
-.six-states{
+/* .six-states{
   background-color: lightblue;
-}
+} */
 
 .six-states img {
   max-width: 100%;
   min-height: 100%;
 }
 
-.seven-states{
+/* .seven-states{
   background-color: rgb(138, 102, 61);
-}
+} */
 
 .seven-states img {
   max-width: 100%;
   min-height: 100%;
 }
-.eight-states{
+/* .eight-states{
   background-color: rgb(121, 237, 252);
-} 
+}  */
 
 .miami{
   max-width: 100%;
