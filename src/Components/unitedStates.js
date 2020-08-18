@@ -16,7 +16,12 @@ class UnitedStates extends Component {
     render() {
         return(
             <div className='container-states'>
-                <div className='yellow-states'>Left</div>
+                <div className='yellow-states'>
+                    <div className='about-country'>
+                        <h1>United States</h1>
+                        <p></p>
+                    </div>
+                </div>
                 <main className='red-states'>
                     <div></div>
                 </main>
