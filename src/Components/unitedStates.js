@@ -29,7 +29,7 @@ class UnitedStates extends Component {
                         <div className='five-states'><img src={usaFive}/></div>
                         <div className='six-states'><img src={usaSix}/></div>
                         <div className='seven-states'><img src={usaSeven}/></div>
-                        <div className='eight-states'><img src={usaEigth}/></div>
+                        <div className='eight-states'><img className='miami' src={usaEigth}/></div>
                     </div>
                 </div>
             </div>
