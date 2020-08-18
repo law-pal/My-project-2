@@ -37,7 +37,7 @@ class UnitedStates extends Component {
             </div>
                 <div className='yellow-states'>
                     <div className='about-country'>
-                        <h1>{props.nation.name}</h1>
+                        <h1>{}</h1>
                         <p></p>
                     </div>
                 </div>
