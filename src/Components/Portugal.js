@@ -27,7 +27,7 @@ class Portugal extends Component {
         return(
             <div className='container-states'>
                 <div></div>
-            <div className='yellow-states'>Left</div>
+            <div className='blue-states-portugal'>Left</div>
             <main className='red-states'>
                 <div>
                 <h1>{portugal.name}</h1>

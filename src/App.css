@@ -76,7 +76,7 @@ body{
   list-style: none;
   height: 100px;
   width: 100%;
-  background-color: rgba(2, 95, 122);
+  background-color:  rgba(10, 66,99);
   margin-top: -100px;
   z-index: -10;
   padding-right: 50px;
@@ -100,14 +100,14 @@ body{
   position: relative;
   height: 110px;
   width: 100%;
-  background-color: rgb(202, 20, 20);
+  background-color: rgb(56, 165, 253);
   display: flex;
   justify-content: center;
 }
 
 .mainmenu{
   align-self: center;
-  font-size: 40px;
+  font-size: 45px;
   letter-spacing: 0.2px;
 }
 
@@ -132,18 +132,51 @@ body{
   grid-gap: 0.5em ;
 }
 
-.yellow-states{
+.blue-states-usa{
   grid-column: 1 / 2;
-  background-color: gold;
+  background-color: rgb(10, 66, 99);
+  color: #fff;
+  text-align: center;
+}
+
+.blue-states-colombia{
+  grid-column: 1 / 2;
+  background-color: rgba(10, 66,99);
+  color: #fff;
+  text-align: center;
+}
+
+.blue-states-mexico{
+  grid-column: 1 / 2;
+  background-color: rgba(10, 66,99);
+  color: #fff;
+  text-align: center;
+}
+
+.blue-states-spain{
+  grid-column: 1 / 2;
+  background-color: rgba(10, 66,99);
+  color: #fff;
+  text-align: center;
+}
+
+.blue-states-portugal{
+  grid-column: 1 / 2;
+  background-color: rgba(10, 66,99);
+  color: #fff;
+  text-align: center;
 }
 
 .red-states{
   grid-column: 2 / 3;
-  background-color: rgb(250, 92, 92);
+  background-color: rgb(240, 240, 240);
+  text-align: center;
 }
 
 .green-states{
   grid-column: 3 / 4;
+  display: flex;
+  background-color: rgb(240, 240, 240);
 }
 
 .green-child-states{
@@ -152,6 +185,7 @@ body{
   grid-template-rows: 150px 150px 150px 150px;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   border-radius: 20%;
+  align-self: center;
 }
 
 .one-states img {
@@ -228,4 +262,8 @@ body{
 
 .red-states img{
   max-width: 100%;
+}
+
+.red-states img:hover{
+  box-shadow: 0 5px 15px rgba(5, 5, 5, 3) ;
 }

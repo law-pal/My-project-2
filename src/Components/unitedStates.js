@@ -29,8 +29,9 @@ class UnitedStates extends Component {
                 <div>
                 
                 </div>
-                <div className='yellow-states'>
+                <div className='blue-states-usa'>
                     <div className='about-country'>
+                        <p><strong>The United States of America (USA)</strong>, commonly known as the United States (U.S. or US) or America, is a country mostly located in central North America, between Canada and Mexico. It consists of 50 states, a federal district, five major self-governing territories, and various possessions.[h] At 3.8 million square miles (9.8 million km2), it is the world's third- or fourth-largest country by total area.[d] With a 2019 estimated population of over 328 million,[7] the U.S. is the third most populous country in the world. Americans are a racially and ethnically diverse population that have been shaped through centuries of immigration. The capital is Washington, D.C., and the most populous city is New York City.</p>
                     </div>
                 </div>
                 <main className='red-states'>
