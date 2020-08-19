@@ -27,7 +27,11 @@ class Portugal extends Component {
         return(
             <div className='container-states'>
                 <div></div>
-            <div className='blue-states-portugal'>Left</div>
+            <div className='blue-states-portugal'>
+            <div className='about-country'>
+                        <p><strong>Portugal</strong><br/>is a country located mostly on the Iberian Peninsula, in southwestern Europe. It is the westernmost sovereign state of mainland Europe, being bordered to the west and south by the Atlantic Ocean and to the north and east by Spain. Its territory also includes the Atlantic archipelagos of the Azores and Madeira, both autonomous regions with their own regional governments. The official and national language is Portuguese.</p>
+                    </div>
+            </div>
             <main className='red-states'>
                 <div>
                 <h1>{portugal.name}</h1>

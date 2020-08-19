@@ -25,7 +25,11 @@ class Colombia extends Component {
         return(
             <div className='container-states'>
                 <div></div>
-                <div className='blue-states-colombia'>Left</div>
+                <div className='blue-states-colombia'>
+                <div className='about-country'>
+                        <p><strong>Colombia</strong><br/> officially the Republic of Colombia is a transcontinental country largely in the north of South America, with territories in North America. Colombia is bounded on the north by the Caribbean Sea, the northwest by Panama, the south by Ecuador and Peru, the east by Venezuela, the southeast by Brazil, and the west by the Pacific Ocean. It comprises 32 departments and the Capital District of Bogotá, the country's largest city. With an area of 1,141,748 square kilometers (440,831 square miles), Colombia is the fourth-largest country in South America, after Brazil, Argentina and Peru. It is also the 25th-largest country in the world, the fifth-largest country in Latin America, and the second most populous Spanish-speaking country.</p>
+                    </div>
+                </div>
                 <main className='red-states'>
                     <div>
                     <h1>{colombia.name}</h1>

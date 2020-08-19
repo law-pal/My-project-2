@@ -25,7 +25,11 @@ class Mexico extends Component {
         return(
             <div className='container-states'>
                  <div></div>
-            <div className='blue-states-mexico'>Left</div>
+            <div className='blue-states-mexico'>
+            <div className='about-country'>
+                        <p><strong>Mexico</strong><br/>officially the United Mexican States is a country in the southern portion of North America. It is bordered to the north by the United States; to the south and west by the Pacific Ocean; to the southeast by Guatemala, Belize, and the Caribbean Sea; and to the east by the Gulf of Mexico.Mexico covers 1,972,550 square kilometers (761,610 sq mi) and has approximately 128,649,565 inhabitants,making it the world's 13th-largest country by area, 10th-most populous country, and most populous Spanish-speaking nation. It is a federation comprising 31 states and Mexico City, its capital city and largest metropolis. Other major urban areas include Guadalajara, Monterrey, Puebla, Toluca, Tijuana, Ciudad Juárez, and León.</p>
+                    </div>
+            </div>
            <main className='red-states'>
                 <div>
                 <h1>{mexico.name}</h1>
